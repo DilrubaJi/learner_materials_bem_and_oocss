@@ -1,13 +1,15 @@
-/* You can delete / re-write this img class  */
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 
 .card__img {
     max-width: 200px;
 }
 
-/* Happy coding! */
-
+/* Structure - block level component */
 .card {
-    /* Add shadows to create the "card" effect */
     border: 0.5em inset silver;
     border-radius: 30px;
     padding: 1em;
@@ -15,14 +17,42 @@
     width: 250px;
     text-align: center;
     margin: 1em;
-
 }
 
+/* Skin - modifier of darkside card*/
 .card__darkside {
     background-color: rgb(46, 28, 16);
     color: oldlace;
 }
 
-.card__lightside{
+/* Skin - modifier of lightside card*/
+.card__lightside {
     background-color: rgb(124, 192, 255);
 }
+
+/* Skin - modifier of darkside card*/
+.card__blockside {
+    background-color: rgb(155, 31, 31);
+    color: oldlace;
+}
+
+/* Skin - modifier of lightside card*/
+.card__danceside {
+    background-color: rgb(124, 255, 255);
+}
+
+.button {
+    padding: 15px 32px;
+    font-size: 1.25em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button__darkside {
+    background-color: maroon;
+}
+
+.button__lightside {
+    background-color: mediumaquamarine;
+}
+
