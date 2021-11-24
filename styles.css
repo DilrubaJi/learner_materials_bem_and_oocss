@@ -1,7 +1,28 @@
 /* You can delete / re-write this img class  */
 
-img {
+.card__img {
     max-width: 200px;
 }
 
 /* Happy coding! */
+
+.card {
+    /* Add shadows to create the "card" effect */
+    border: 0.5em inset silver;
+    border-radius: 30px;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 250px;
+    text-align: center;
+    margin: 1em;
+
+}
+
+.card__darkside {
+    background-color: rgb(46, 28, 16);
+    color: oldlace;
+}
+
+.card__lightside{
+    background-color: rgb(124, 192, 255);
+}
